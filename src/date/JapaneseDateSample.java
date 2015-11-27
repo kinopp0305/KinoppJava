@@ -1,8 +1,6 @@
 package date;
 
-import java.time.chrono.JapaneseChronology;
 import java.time.chrono.JapaneseDate;
-import static java.time.chrono.JapaneseDate.now;
 import java.time.chrono.JapaneseEra;
 import java.time.format.DateTimeFormatter;
 import static java.time.temporal.ChronoField.*;
