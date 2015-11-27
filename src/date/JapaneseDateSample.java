@@ -15,9 +15,11 @@ public class JapaneseDateSample {
         System.out.println(date1);  //=> Japanese Showa 48-05-23
         System.out.println(date1.getChronology());  //=> Japanese
         System.out.println(date1.getEra());  //=> Showa
+        System.out.println(date1.get(ERA));  //=> 1
         System.out.println(date1.get(YEAR_OF_ERA));  //=> 48
         System.out.println(date1.get(YEAR));  //=> 1973
-        System.out.println(date1.get(ERA));  //=> 1
+        System.out.println(date1.get(MONTH_OF_YEAR));  //=> 5
+        System.out.println(date1.get(DAY_OF_MONTH));  //=> 23
 
         // 和暦を設定
         JapaneseDate date2 = JapaneseDate.of(JapaneseEra.HEISEI, 18, 4, 24);
