@@ -1,9 +1,9 @@
-package strng;
+package string;
 
 /**
  * 文字列結合のサンプル
  * 10000回「Java」の文字列を結合する
- * String、StringBuilder、StringBufferで実行時間の比較
+ * String、StringBuilderで実行時間の比較
  */
 public class StringPerformanceSample {
     public static void main(String[] args) {

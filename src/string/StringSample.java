@@ -1,4 +1,4 @@
-package strng;
+package string;
 
 /**
  * Stringのサンプル
